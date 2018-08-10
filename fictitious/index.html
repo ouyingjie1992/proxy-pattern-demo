@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>代理模式-虚拟代理</title>
+
+	<style type="text/css">
+		.showPost {
+		    height: 300px;
+    		overflow-y: auto;
+		}
+		.showImg {
+			width: 100px;
+			height: 100px;
+		}
+		.showImg img {
+			width: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>虚拟代理-实现图片预加载</h1>
+		<div id="showImg" class="showImg">
+		</div>
+	</div>
+	<div>
+		<h1>虚拟代理-实现即时查询</h1>
+		<div>
+			<input id="postValue"/>
+		</div>
+		<div id="showPost" class="showPost"></div>
+	</div>
+</body>
+<script src="../lib/jquery-1.11.3.min.js"></script>
+<script src="index.js"></script>
+</html>
